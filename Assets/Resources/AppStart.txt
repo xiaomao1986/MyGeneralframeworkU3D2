@@ -1,0 +1,7 @@
+print("lua Appstart...")
+function start()
+	print("lua s23423423"..CSAppstart.yy)
+	CSAppstart:OpenScene("/scenes/testscene.myab","TestScene")
+	
+
+end

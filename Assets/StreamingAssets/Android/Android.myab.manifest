@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 779699340
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: t1.myab
+      Dependencies: {}
+    Info_1:
+      Name: t2.myab
+      Dependencies: {}
+    Info_2:
+      Name: cube.myab
+      Dependencies:
+        Dependency_0: m1.myab
+    Info_3:
+      Name: t3.myab
+      Dependencies: {}
+    Info_4:
+      Name: m1.myab
+      Dependencies:
+        Dependency_0: t1.myab
+        Dependency_1: t2.myab
+        Dependency_2: t3.myab
+    Info_5:
+      Name: tlua.myab
+      Dependencies: {}
